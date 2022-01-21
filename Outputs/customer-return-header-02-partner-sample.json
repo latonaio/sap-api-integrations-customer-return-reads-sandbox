@@ -1,0 +1,48 @@
+{
+	"cursor": "/Users/latona2/bitbucket/sap-api-integrations-customer-return-reads/SAP_API_Caller/caller.go#L65",
+	"function": "sap-api-integrations-customer-return-reads/SAP_API_Caller.(*SAPAPICaller).Header",
+	"level": "INFO",
+	"message": [
+		{
+			"CustomerReturn": "60000000",
+			"PartnerFunction": "SH",
+			"Customer": "USCU-CUS07",
+			"Supplier": "",
+			"Personnel": "0",
+			"ContactPerson": "0",
+			"BusinessPartnerAddressUUID": "00000000-0000-0000-0000-000000000000",
+			"BPRefAddrForDocSpcfcAddrUUID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"CustomerReturn": "60000000",
+			"PartnerFunction": "SP",
+			"Customer": "USCU-CUS07",
+			"Supplier": "",
+			"Personnel": "0",
+			"ContactPerson": "0",
+			"BusinessPartnerAddressUUID": "00000000-0000-0000-0000-000000000000",
+			"BPRefAddrForDocSpcfcAddrUUID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"CustomerReturn": "60000000",
+			"PartnerFunction": "BP",
+			"Customer": "USCU-CUS07",
+			"Supplier": "",
+			"Personnel": "0",
+			"ContactPerson": "0",
+			"BusinessPartnerAddressUUID": "00000000-0000-0000-0000-000000000000",
+			"BPRefAddrForDocSpcfcAddrUUID": "00000000-0000-0000-0000-000000000000"
+		},
+		{
+			"CustomerReturn": "60000000",
+			"PartnerFunction": "PY",
+			"Customer": "USCU-CUS07",
+			"Supplier": "",
+			"Personnel": "0",
+			"ContactPerson": "0",
+			"BusinessPartnerAddressUUID": "00000000-0000-0000-0000-000000000000",
+			"BPRefAddrForDocSpcfcAddrUUID": "00000000-0000-0000-0000-000000000000"
+		}
+	],
+	"time": "2022-01-21T17:30:19.226226+09:00"
+}
