@@ -144,6 +144,14 @@
 				"ConditionScaleBasisUnit": "",
 				"ConditionScaleBasisCurrency": "",
 				"ConditionIsManuallyChanged": null,
+				"ItemScheduleLine": {
+					"ScheduleLine": "",
+					"OrderQuantityUnit": "",
+					"ConfdOrderQtyByMatlAvailCheck": "",
+					"DeliveredQtyInOrderQtyUnit": "",
+					"OpenConfdDelivQtyInOrdQtyUnit": "",
+					"DelivBlockReasonForSchedLine": ""
+				},
 				"ItemProcessStep": {
 					"RetsMgmtProcess": "",
 					"RetsMgmtProcessItem": "",
@@ -157,15 +165,7 @@
 					"ReturnsReferenceDocumentType": "",
 					"ReturnsReferenceDocument": "",
 					"ReturnsReferenceDocumentItem": "",
-					"RetsMgmtProcStepExecStatus": "",
-					"ItemScheduleLine": {
-						"ScheduleLine": "",
-						"OrderQuantityUnit": "",
-						"ConfdOrderQtyByMatlAvailCheck": "",
-						"DeliveredQtyInOrderQtyUnit": "",
-						"OpenConfdDelivQtyInOrdQtyUnit": "",
-						"DelivBlockReasonForSchedLine": ""
-					}
+					"RetsMgmtProcStepExecStatus": ""
 				}
 			}
 		}

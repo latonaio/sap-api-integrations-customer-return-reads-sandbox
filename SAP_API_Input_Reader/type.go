@@ -198,8 +198,16 @@ type SDC struct {
 				ConditionScaleBasisValue    string      `json:"ConditionScaleBasisValue"`
 				ConditionScaleBasisUnit     string      `json:"ConditionScaleBasisUnit"`
 				ConditionScaleBasisCurrency string      `json:"ConditionScaleBasisCurrency"`
-				ConditionIsManuallyChanged  bool        `json:"ConditionIsManuallyChanged"`
-				ItemProcessStep             struct {
+				ConditionIsManuallyChanged  interface{} `json:"ConditionIsManuallyChanged"`
+				ItemScheduleLine            struct {
+					ScheduleLine                  string `json:"ScheduleLine"`
+					OrderQuantityUnit             string `json:"OrderQuantityUnit"`
+					ConfdOrderQtyByMatlAvailCheck string `json:"ConfdOrderQtyByMatlAvailCheck"`
+					DeliveredQtyInOrderQtyUnit    string `json:"DeliveredQtyInOrderQtyUnit"`
+					OpenConfdDelivQtyInOrdQtyUnit string `json:"OpenConfdDelivQtyInOrdQtyUnit"`
+					DelivBlockReasonForSchedLine  string `json:"DelivBlockReasonForSchedLine"`
+				} `json:"ItemScheduleLine"`
+				ItemProcessStep struct {
 					RetsMgmtProcess               string `json:"RetsMgmtProcess"`
 					RetsMgmtProcessItem           string `json:"RetsMgmtProcessItem"`
 					RetsMgmtProcItmQtySplit       string `json:"RetsMgmtProcItmQtySplit"`
@@ -213,14 +221,6 @@ type SDC struct {
 					ReturnsReferenceDocument      string `json:"ReturnsReferenceDocument"`
 					ReturnsReferenceDocumentItem  string `json:"ReturnsReferenceDocumentItem"`
 					RetsMgmtProcStepExecStatus    string `json:"RetsMgmtProcStepExecStatus"`
-					ItemScheduleLine              struct {
-						ScheduleLine                  string `json:"ScheduleLine"`
-						OrderQuantityUnit             string `json:"OrderQuantityUnit"`
-						ConfdOrderQtyByMatlAvailCheck string `json:"ConfdOrderQtyByMatlAvailCheck"`
-						DeliveredQtyInOrderQtyUnit    string `json:"DeliveredQtyInOrderQtyUnit"`
-						OpenConfdDelivQtyInOrdQtyUnit string `json:"OpenConfdDelivQtyInOrdQtyUnit"`
-						DelivBlockReasonForSchedLine  string `json:"DelivBlockReasonForSchedLine"`
-					} `json:"ItemScheduleLine"`
 				} `json:"ItemProcessStep"`
 			} `json:"ItemPricingElement"`
 		} `json:"CustomerReturnItem"`
