@@ -21,7 +21,6 @@ type Header struct {
 	SalesDistrict                 string `json:"SalesDistrict"`
 	SoldToParty                   string `json:"SoldToParty"`
 	CreationDate                  string `json:"CreationDate"`
-	CreatedByUser                 string `json:"CreatedByUser"`
 	LastChangeDate                string `json:"LastChangeDate"`
 	SenderBusinessSystemName      string `json:"SenderBusinessSystemName"`
 	LastChangeDateTime            string `json:"LastChangeDateTime"`
@@ -38,21 +37,9 @@ type Header struct {
 	HeaderBillingBlockReason      string `json:"HeaderBillingBlockReason"`
 	DeliveryBlockReason           string `json:"DeliveryBlockReason"`
 	IncotermsClassification       string `json:"IncotermsClassification"`
-	IncotermsTransferLocation     string `json:"IncotermsTransferLocation"`
-	IncotermsLocation1            string `json:"IncotermsLocation1"`
-	IncotermsLocation2            string `json:"IncotermsLocation2"`
-	IncotermsVersion              string `json:"IncotermsVersion"`
 	CustomerPaymentTerms          string `json:"CustomerPaymentTerms"`
 	PaymentMethod                 string `json:"PaymentMethod"`
 	CustomerTaxClassification1    string `json:"CustomerTaxClassification1"`
-	CustomerTaxClassification2    string `json:"CustomerTaxClassification2"`
-	CustomerTaxClassification3    string `json:"CustomerTaxClassification3"`
-	CustomerTaxClassification4    string `json:"CustomerTaxClassification4"`
-	CustomerTaxClassification5    string `json:"CustomerTaxClassification5"`
-	CustomerTaxClassification6    string `json:"CustomerTaxClassification6"`
-	CustomerTaxClassification7    string `json:"CustomerTaxClassification7"`
-	CustomerTaxClassification8    string `json:"CustomerTaxClassification8"`
-	CustomerTaxClassification9    string `json:"CustomerTaxClassification9"`
 	RetsMgmtProcess               string `json:"RetsMgmtProcess"`
 	ReferenceSDDocument           string `json:"ReferenceSDDocument"`
 	ReferenceSDDocumentCategory   string `json:"ReferenceSDDocumentCategory"`
@@ -64,8 +51,8 @@ type Header struct {
 	OverallSDProcessStatus        string `json:"OverallSDProcessStatus"`
 	TotalCreditCheckStatus        string `json:"TotalCreditCheckStatus"`
 	OverallSDDocumentRejectionSts string `json:"OverallSDDocumentRejectionSts"`
-	ToItem                        string `json:"to_Item"`
 	ToHeaderPartner               string `json:"to_Partner"`
+	ToItem                        string `json:"to_Item"`
 }
 
 type Item struct {
@@ -94,19 +81,8 @@ type Item struct {
 	ShippingType                   string `json:"ShippingType"`
 	DeliveryPriority               string `json:"DeliveryPriority"`
 	IncotermsClassification        string `json:"IncotermsClassification"`
-	IncotermsTransferLocation      string `json:"IncotermsTransferLocation"`
-	IncotermsLocation1             string `json:"IncotermsLocation1"`
-	IncotermsLocation2             string `json:"IncotermsLocation2"`
 	CustomerPaymentTerms           string `json:"CustomerPaymentTerms"`
 	ProductTaxClassification1      string `json:"ProductTaxClassification1"`
-	ProductTaxClassification2      string `json:"ProductTaxClassification2"`
-	ProductTaxClassification3      string `json:"ProductTaxClassification3"`
-	ProductTaxClassification4      string `json:"ProductTaxClassification4"`
-	ProductTaxClassification5      string `json:"ProductTaxClassification5"`
-	ProductTaxClassification6      string `json:"ProductTaxClassification6"`
-	ProductTaxClassification7      string `json:"ProductTaxClassification7"`
-	ProductTaxClassification8      string `json:"ProductTaxClassification8"`
-	ProductTaxClassification9      string `json:"ProductTaxClassification9"`
 	SalesDocumentRjcnReason        string `json:"SalesDocumentRjcnReason"`
 	ItemBillingBlockReason         string `json:"ItemBillingBlockReason"`
 	ProfitCenter                   string `json:"ProfitCenter"`
@@ -160,10 +136,6 @@ type ToHeaderPartner struct {
 	PartnerFunction              string `json:"PartnerFunction"`
 	Customer                     string `json:"Customer"`
 	Supplier                     string `json:"Supplier"`
-	Personnel                    string `json:"Personnel"`
-	ContactPerson                string `json:"ContactPerson"`
-	BusinessPartnerAddressUUID   string `json:"BusinessPartnerAddressUUID"`
-	BPRefAddrForDocSpcfcAddrUUID string `json:"BPRefAddrForDocSpcfcAddrUUID"`
 }
 
 type ToItem struct {
@@ -192,19 +164,8 @@ type ToItem struct {
 	ShippingType                   string `json:"ShippingType"`
 	DeliveryPriority               string `json:"DeliveryPriority"`
 	IncotermsClassification        string `json:"IncotermsClassification"`
-	IncotermsTransferLocation      string `json:"IncotermsTransferLocation"`
-	IncotermsLocation1             string `json:"IncotermsLocation1"`
-	IncotermsLocation2             string `json:"IncotermsLocation2"`
 	CustomerPaymentTerms           string `json:"CustomerPaymentTerms"`
 	ProductTaxClassification1      string `json:"ProductTaxClassification1"`
-	ProductTaxClassification2      string `json:"ProductTaxClassification2"`
-	ProductTaxClassification3      string `json:"ProductTaxClassification3"`
-	ProductTaxClassification4      string `json:"ProductTaxClassification4"`
-	ProductTaxClassification5      string `json:"ProductTaxClassification5"`
-	ProductTaxClassification6      string `json:"ProductTaxClassification6"`
-	ProductTaxClassification7      string `json:"ProductTaxClassification7"`
-	ProductTaxClassification8      string `json:"ProductTaxClassification8"`
-	ProductTaxClassification9      string `json:"ProductTaxClassification9"`
 	SalesDocumentRjcnReason        string `json:"SalesDocumentRjcnReason"`
 	ItemBillingBlockReason         string `json:"ItemBillingBlockReason"`
 	ProfitCenter                   string `json:"ProfitCenter"`
@@ -267,34 +228,17 @@ type ToItemPricingElement struct {
 	ConditionQuantity             string `json:"ConditionQuantity"`
 	ConditionQuantityUnit         string `json:"ConditionQuantityUnit"`
 	ConditionCategory             string `json:"ConditionCategory"`
-	ConditionIsForStatistics      bool   `json:"ConditionIsForStatistics"`
 	PricingScaleType              string `json:"PricingScaleType"`
-	IsRelevantForAccrual          bool   `json:"IsRelevantForAccrual"`
-	CndnIsRelevantForInvoiceList  string `json:"CndnIsRelevantForInvoiceList"`
-	ConditionOrigin               string `json:"ConditionOrigin"`
-	IsGroupCondition              string `json:"IsGroupCondition"`
 	ConditionRecord               string `json:"ConditionRecord"`
 	ConditionSequentialNumber     string `json:"ConditionSequentialNumber"`
 	TaxCode                       string `json:"TaxCode"`
-	WithholdingTaxCode            string `json:"WithholdingTaxCode"`
-	CndnRoundingOffDiffAmount     string `json:"CndnRoundingOffDiffAmount"`
 	ConditionAmount               string `json:"ConditionAmount"`
 	TransactionCurrency           string `json:"TransactionCurrency"`
-	ConditionControl              string `json:"ConditionControl"`
-	ConditionInactiveReason       string `json:"ConditionInactiveReason"`
-	ConditionClass                string `json:"ConditionClass"`
-	PrcgProcedureCounterForHeader string `json:"PrcgProcedureCounterForHeader"`
-	FactorForConditionBasisValue  string `json:"FactorForConditionBasisValue"`
-	StructureCondition            string `json:"StructureCondition"`
-	PeriodFactorForCndnBasisValue string `json:"PeriodFactorForCndnBasisValue"`
 	PricingScaleBasis             string `json:"PricingScaleBasis"`
 	ConditionScaleBasisValue      string `json:"ConditionScaleBasisValue"`
 	ConditionScaleBasisUnit       string `json:"ConditionScaleBasisUnit"`
 	ConditionScaleBasisCurrency   string `json:"ConditionScaleBasisCurrency"`
-	CndnIsRelevantForIntcoBilling bool   `json:"CndnIsRelevantForIntcoBilling"`
 	ConditionIsManuallyChanged    bool   `json:"ConditionIsManuallyChanged"`
-	ConditionIsForConfiguration   bool   `json:"ConditionIsForConfiguration"`
-	VariantCondition              string `json:"VariantCondition"`
 }
 
 type ToItemProcessStep struct {

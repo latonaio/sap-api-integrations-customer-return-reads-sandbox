@@ -33,19 +33,8 @@ type ToItem struct {
 			ShippingType                   string `json:"ShippingType"`
 			DeliveryPriority               string `json:"DeliveryPriority"`
 			IncotermsClassification        string `json:"IncotermsClassification"`
-			IncotermsTransferLocation      string `json:"IncotermsTransferLocation"`
-			IncotermsLocation1             string `json:"IncotermsLocation1"`
-			IncotermsLocation2             string `json:"IncotermsLocation2"`
 			CustomerPaymentTerms           string `json:"CustomerPaymentTerms"`
 			ProductTaxClassification1      string `json:"ProductTaxClassification1"`
-			ProductTaxClassification2      string `json:"ProductTaxClassification2"`
-			ProductTaxClassification3      string `json:"ProductTaxClassification3"`
-			ProductTaxClassification4      string `json:"ProductTaxClassification4"`
-			ProductTaxClassification5      string `json:"ProductTaxClassification5"`
-			ProductTaxClassification6      string `json:"ProductTaxClassification6"`
-			ProductTaxClassification7      string `json:"ProductTaxClassification7"`
-			ProductTaxClassification8      string `json:"ProductTaxClassification8"`
-			ProductTaxClassification9      string `json:"ProductTaxClassification9"`
 			SalesDocumentRjcnReason        string `json:"SalesDocumentRjcnReason"`
 			ItemBillingBlockReason         string `json:"ItemBillingBlockReason"`
 			ProfitCenter                   string `json:"ProfitCenter"`
@@ -96,7 +85,7 @@ type ToItem struct {
 			} `json:"to_PricingElement"`
 			ToItemProcessStep struct {
 				Deferred struct {
-					URI string `json:"uri"`
+				URI string `json:"uri"`
 				} `json:"__deferred"`
 			} `json:"to_ProcessStep"`
 			ToItemScheduleLine struct {

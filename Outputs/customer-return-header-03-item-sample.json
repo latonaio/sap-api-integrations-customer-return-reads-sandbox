@@ -29,19 +29,8 @@
 			"ShippingType": "",
 			"DeliveryPriority": "2",
 			"IncotermsClassification": "EXW",
-			"IncotermsTransferLocation": "Palo Alto",
-			"IncotermsLocation1": "Palo Alto",
-			"IncotermsLocation2": "",
 			"CustomerPaymentTerms": "0004",
 			"ProductTaxClassification1": "0",
-			"ProductTaxClassification2": "",
-			"ProductTaxClassification3": "",
-			"ProductTaxClassification4": "",
-			"ProductTaxClassification5": "",
-			"ProductTaxClassification6": "",
-			"ProductTaxClassification7": "",
-			"ProductTaxClassification8": "",
-			"ProductTaxClassification9": "",
 			"SalesDocumentRjcnReason": "",
 			"ItemBillingBlockReason": "",
 			"ProfitCenter": "Z_LOG_PC7",
@@ -85,10 +74,10 @@
 			"ReferenceSDDocumentItem": "10",
 			"ReferenceSDDocumentCategory": "C",
 			"SDDocumentRejectionStatus": "A",
-			"to_PricingElement": "",
-			"to_ProcessStep": "",
-			"to_ScheduleLine": ""
+			"to_PricingElement": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CUSTOMER_RETURN_SRV/A_CustomerReturnItem(CustomerReturn='60000000',CustomerReturnItem='10')/to_PricingElement",
+			"to_ProcessStep": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CUSTOMER_RETURN_SRV/A_CustomerReturnItem(CustomerReturn='60000000',CustomerReturnItem='10')/to_ProcessStep",
+			"to_ScheduleLine": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CUSTOMER_RETURN_SRV/A_CustomerReturnItem(CustomerReturn='60000000',CustomerReturnItem='10')/to_ScheduleLine"
 		}
 	],
-	"time": "2022-01-21T17:30:20.659169+09:00"
+	"time": "2022-01-23T20:20:50.911699+09:00"
 }

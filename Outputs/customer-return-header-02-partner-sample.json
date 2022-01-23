@@ -7,42 +7,26 @@
 			"CustomerReturn": "60000000",
 			"PartnerFunction": "SH",
 			"Customer": "USCU-CUS07",
-			"Supplier": "",
-			"Personnel": "0",
-			"ContactPerson": "0",
-			"BusinessPartnerAddressUUID": "00000000-0000-0000-0000-000000000000",
-			"BPRefAddrForDocSpcfcAddrUUID": "00000000-0000-0000-0000-000000000000"
+			"Supplier": ""
 		},
 		{
 			"CustomerReturn": "60000000",
 			"PartnerFunction": "SP",
 			"Customer": "USCU-CUS07",
-			"Supplier": "",
-			"Personnel": "0",
-			"ContactPerson": "0",
-			"BusinessPartnerAddressUUID": "00000000-0000-0000-0000-000000000000",
-			"BPRefAddrForDocSpcfcAddrUUID": "00000000-0000-0000-0000-000000000000"
+			"Supplier": ""
 		},
 		{
 			"CustomerReturn": "60000000",
 			"PartnerFunction": "BP",
 			"Customer": "USCU-CUS07",
-			"Supplier": "",
-			"Personnel": "0",
-			"ContactPerson": "0",
-			"BusinessPartnerAddressUUID": "00000000-0000-0000-0000-000000000000",
-			"BPRefAddrForDocSpcfcAddrUUID": "00000000-0000-0000-0000-000000000000"
+			"Supplier": ""
 		},
 		{
 			"CustomerReturn": "60000000",
 			"PartnerFunction": "PY",
 			"Customer": "USCU-CUS07",
-			"Supplier": "",
-			"Personnel": "0",
-			"ContactPerson": "0",
-			"BusinessPartnerAddressUUID": "00000000-0000-0000-0000-000000000000",
-			"BPRefAddrForDocSpcfcAddrUUID": "00000000-0000-0000-0000-000000000000"
+			"Supplier": ""
 		}
 	],
-	"time": "2022-01-21T17:30:19.226226+09:00"
+	"time": "2022-01-23T20:20:49.172931+09:00"
 }

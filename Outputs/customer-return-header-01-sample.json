@@ -14,7 +14,6 @@
 			"SalesDistrict": "",
 			"SoldToParty": "USCU-CUS07",
 			"CreationDate": "/Date(1474329600000)/",
-			"CreatedByUser": "CB9980000065",
 			"LastChangeDate": "",
 			"SenderBusinessSystemName": "",
 			"LastChangeDateTime": "/Date(1474369522244+0000)/",
@@ -31,21 +30,9 @@
 			"HeaderBillingBlockReason": "",
 			"DeliveryBlockReason": "",
 			"IncotermsClassification": "EXW",
-			"IncotermsTransferLocation": "Palo Alto",
-			"IncotermsLocation1": "Palo Alto",
-			"IncotermsLocation2": "",
-			"IncotermsVersion": "",
 			"CustomerPaymentTerms": "0004",
 			"PaymentMethod": "",
 			"CustomerTaxClassification1": "",
-			"CustomerTaxClassification2": "",
-			"CustomerTaxClassification3": "",
-			"CustomerTaxClassification4": "",
-			"CustomerTaxClassification5": "",
-			"CustomerTaxClassification6": "",
-			"CustomerTaxClassification7": "",
-			"CustomerTaxClassification8": "",
-			"CustomerTaxClassification9": "",
 			"RetsMgmtProcess": "1",
 			"ReferenceSDDocument": "348",
 			"ReferenceSDDocumentCategory": "C",
@@ -57,9 +44,9 @@
 			"OverallSDProcessStatus": "C",
 			"TotalCreditCheckStatus": "",
 			"OverallSDDocumentRejectionSts": "A",
-			"to_Item": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CUSTOMER_RETURN_SRV/A_CustomerReturn('60000000')/to_Item",
-			"to_Partner": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CUSTOMER_RETURN_SRV/A_CustomerReturn('60000000')/to_Partner"
+			"to_Partner": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CUSTOMER_RETURN_SRV/A_CustomerReturn('60000000')/to_Partner",
+			"to_Item": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CUSTOMER_RETURN_SRV/A_CustomerReturn('60000000')/to_Item"
 		}
 	],
-	"time": "2022-01-21T17:30:18.385971+09:00"
+	"time": "2022-01-23T20:20:48.298923+09:00"
 }

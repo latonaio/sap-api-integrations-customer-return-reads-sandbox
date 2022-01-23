@@ -12,10 +12,6 @@ type ToHeaderPartner struct {
 			PartnerFunction              string `json:"PartnerFunction"`
 			Customer                     string `json:"Customer"`
 			Supplier                     string `json:"Supplier"`
-			Personnel                    string `json:"Personnel"`
-			ContactPerson                string `json:"ContactPerson"`
-			BusinessPartnerAddressUUID   string `json:"BusinessPartnerAddressUUID"`
-			BPRefAddrForDocSpcfcAddrUUID string `json:"BPRefAddrForDocSpcfcAddrUUID"`
 		} `json:"results"`
 	} `json:"d"`
 }
