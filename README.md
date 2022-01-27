@@ -98,9 +98,9 @@ func (c *SAPAPICaller) AsyncGetCustomerReturn(customerReturn, customerReturnItem
 }
 ```
 ## Output  
-本マイクロサービスでは、[golang-logging-library](https://github.com/latonaio/golang-logging-library) により、以下のようなデータがJSON形式で出力されます。  
+本マイクロサービスでは、[golang-logging-library-for-sap](https://github.com/latonaio/golang-logging-library-for-sap) により、以下のようなデータがJSON形式で出力されます。  
 以下の sample.json の例は、SAP 得意先返品 の ヘッダデータ が取得された結果の JSON の例です。  
-以下の項目のうち、"customerReturn" ～ "to_Item" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library による 定型フォーマットの出力結果です。  
+以下の項目のうち、"customerReturn" ～ "to_Item" は、/SAP_API_Output_Formatter/type.go 内 の Type Header {} による出力結果です。"cursor" ～ "time"は、golang-logging-library-for-sap による 定型フォーマットの出力結果です。  
 
 ```
 {
@@ -118,39 +118,26 @@ func (c *SAPAPICaller) AsyncGetCustomerReturn(customerReturn, customerReturnItem
 			"SalesOffice": "",
 			"SalesDistrict": "",
 			"SoldToParty": "USCU-CUS07",
-			"CreationDate": "/Date(1474329600000)/",
-			"CreatedByUser": "CB9980000065",
+			"CreationDate": "2016-09-20T09:00:00+09:00",
 			"LastChangeDate": "",
 			"SenderBusinessSystemName": "",
-			"LastChangeDateTime": "/Date(1474369522244+0000)/",
+			"LastChangeDateTime": "",
 			"PurchaseOrderByCustomer": "Returns",
 			"CustomerPurchaseOrderType": "",
 			"CustomerPurchaseOrderDate": "",
-			"CustomerReturnDate": "/Date(1474329600000)/",
+			"CustomerReturnDate": "2016-09-20T09:00:00+09:00",
 			"TotalNetAmount": "1800.00",
 			"TransactionCurrency": "USD",
 			"SDDocumentReason": "009",
-			"PricingDate": "/Date(1474329600000)/",
-			"RequestedDeliveryDate": "/Date(1474329600000)/",
+			"PricingDate": "2016-09-20T09:00:00+09:00",
+			"RequestedDeliveryDate": "2016-09-20T09:00:00+09:00",
 			"ShippingType": "",
 			"HeaderBillingBlockReason": "",
 			"DeliveryBlockReason": "",
 			"IncotermsClassification": "EXW",
-			"IncotermsTransferLocation": "Palo Alto",
-			"IncotermsLocation1": "Palo Alto",
-			"IncotermsLocation2": "",
-			"IncotermsVersion": "",
 			"CustomerPaymentTerms": "0004",
 			"PaymentMethod": "",
 			"CustomerTaxClassification1": "",
-			"CustomerTaxClassification2": "",
-			"CustomerTaxClassification3": "",
-			"CustomerTaxClassification4": "",
-			"CustomerTaxClassification5": "",
-			"CustomerTaxClassification6": "",
-			"CustomerTaxClassification7": "",
-			"CustomerTaxClassification8": "",
-			"CustomerTaxClassification9": "",
 			"RetsMgmtProcess": "1",
 			"ReferenceSDDocument": "348",
 			"ReferenceSDDocumentCategory": "C",
@@ -162,12 +149,13 @@ func (c *SAPAPICaller) AsyncGetCustomerReturn(customerReturn, customerReturnItem
 			"OverallSDProcessStatus": "C",
 			"TotalCreditCheckStatus": "",
 			"OverallSDDocumentRejectionSts": "A",
-			"to_Item": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CUSTOMER_RETURN_SRV/A_CustomerReturn('60000000')/to_Item",
-			"to_Partner": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CUSTOMER_RETURN_SRV/A_CustomerReturn('60000000')/to_Partner"
+			"to_Partner": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CUSTOMER_RETURN_SRV/A_CustomerReturn('60000000')/to_Partner",
+			"to_Item": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CUSTOMER_RETURN_SRV/A_CustomerReturn('60000000')/to_Item"
 		}
 	],
-	"time": "2022-01-21T17:30:18.385971+09:00"
+	"time": "2022-01-27T22:55:38+09:00"
 }
+
 ```
 
 

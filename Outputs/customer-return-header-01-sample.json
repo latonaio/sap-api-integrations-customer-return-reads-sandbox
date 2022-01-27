@@ -13,19 +13,19 @@
 			"SalesOffice": "",
 			"SalesDistrict": "",
 			"SoldToParty": "USCU-CUS07",
-			"CreationDate": "/Date(1474329600000)/",
+			"CreationDate": "2016-09-20T09:00:00+09:00",
 			"LastChangeDate": "",
 			"SenderBusinessSystemName": "",
-			"LastChangeDateTime": "/Date(1474369522244+0000)/",
+			"LastChangeDateTime": "",
 			"PurchaseOrderByCustomer": "Returns",
 			"CustomerPurchaseOrderType": "",
 			"CustomerPurchaseOrderDate": "",
-			"CustomerReturnDate": "/Date(1474329600000)/",
+			"CustomerReturnDate": "2016-09-20T09:00:00+09:00",
 			"TotalNetAmount": "1800.00",
 			"TransactionCurrency": "USD",
 			"SDDocumentReason": "009",
-			"PricingDate": "/Date(1474329600000)/",
-			"RequestedDeliveryDate": "/Date(1474329600000)/",
+			"PricingDate": "2016-09-20T09:00:00+09:00",
+			"RequestedDeliveryDate": "2016-09-20T09:00:00+09:00",
 			"ShippingType": "",
 			"HeaderBillingBlockReason": "",
 			"DeliveryBlockReason": "",
@@ -48,5 +48,5 @@
 			"to_Item": "https://sandbox.api.sap.com/s4hanacloud/sap/opu/odata/sap/API_CUSTOMER_RETURN_SRV/A_CustomerReturn('60000000')/to_Item"
 		}
 	],
-	"time": "2022-01-23T20:20:48.298923+09:00"
+	"time": "2022-01-27T22:55:38+09:00"
 }
